@@ -1,0 +1,43 @@
+.table-blk .rdt_Table {
+  @apply text-lg text-font-dark !important;
+}
+
+.rdt_TableHeadRow {
+  @apply text-left border-[1px] border-t-0 border-r-0 border-l-0 p-2 text-font-dark font-bold text-base border-b-cyan !important;
+}
+
+.rdt_TableRow {
+  @apply text-font-dark p-4 text-base border-b-cyan !important;
+}
+
+.rdt_TableCell {
+  @apply pl-0;
+}
+
+.table-blk button {
+  @apply max-w-[110px] mr-4 py-1 px-2 text-sm font-light border-secondary border-[1px] h-10
+}
+
+.footer-table-btn{
+   @apply flex justify-end py-10
+}
+
+.rdt_Pagination {
+  @apply text-font-dark !important
+}
+
+.rdt_Pagination span:nth-child(1),  .gnaqej{
+  display: none
+}
+
+.rdt_Pagination span:nth-child(2){
+  @apply text-font-dark !important
+}
+
+.rdt_Pagination button svg path:nth-child(1){
+  @apply fill-secondary
+}
+
+.table-blk .secondary-btn{
+  @apply hover:bg-button-success hover:border-none;
+}

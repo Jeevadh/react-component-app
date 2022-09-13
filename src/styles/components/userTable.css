@@ -1,0 +1,23 @@
+.user-table-blk {
+    @apply w-[90%] overflow-auto
+}
+
+.user-table-blk  .h1-text{
+    @apply p-14 flex justify-center text-lg;
+}
+
+.user-table-blk .table-blk table{
+    @apply pl-24
+}
+
+.table-filter-option {
+    @apply w-full flex justify-end
+}
+
+.time-info{
+    @apply flex
+}
+
+.time-info .fa{
+    @apply pl-3
+}

@@ -1,0 +1,60 @@
+.header-logo {
+  @apply max-w-[313px] w-full border-[2px] border-headerBorder border-t-0 border-b-0 border-l-0 cursor-pointer sm:border-[0px]
+   sm:border-b-[2px] sm:max-w-[inherit] flex justify-between p-2 items-center lg:flex-row-reverse
+}
+
+.header-logo span {
+  @apply lg:block;
+}
+
+.primary-header {
+  @apply flex h-24 bg-background-primary border-[2px] border-headerBorder sm:h-auto sm:block;
+}
+
+.primary-header img {
+  @apply ml-4 mb-6 mt-5 w-[160px] h-[44px];
+}
+
+.secondary-header img {
+  @apply m-0 w-[35px] h-[35px] 
+ }
+
+.primary-header h1 {
+  @apply flex justify-center;
+}
+
+.secondary-header {
+  @apply flex w-full justify-between  items-center pl-4 relative;
+}
+
+.account-blk {
+  @apply flex mr-12 mb-6 mt-5 ml-4
+}
+
+.account-blk div p:nth-child(1) {
+  @apply text-font-dark font-bold text-sm mr-3 text-end;
+}
+
+.account-blk div p:nth-child(2) {
+  @apply text-font-dark text-sm mr-3 text-end;
+}
+
+.account-blk p {
+  @apply font-mons text-end
+}
+
+.menu-dropdown {
+  @apply relative font-bold;
+}
+
+.menu-dropdown::after {
+  @apply absolute -left-[3px] right-0 -bottom-[40px] ml-auto mr-auto h-0 w-0 border-[10px] border-t-0 border-l-primary border-r-primary;
+  content: '';
+}
+
+.sub-menu-dropdown {
+  @apply absolute h-[30px] w-[180px] top-[94px] right-[14px]  text-font-dark hover:bg-cyan cursor-pointer shadow-2xl
+}
+
+.sub-menu-dropdown div{
+  @apply text-font-dark border-[1px] border-cyan  hover:bg-tabBg hover:text-font-dark cursor-pointer text-sm bg-primary py-[8px] pl-[10px]}

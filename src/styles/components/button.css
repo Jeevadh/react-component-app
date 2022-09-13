@@ -1,0 +1,16 @@
+.btn{
+    @apply rounded border-none font-semibold py-3 px-5 text-base;
+  }
+
+.primary-btn{
+    @apply bg-button-primary text-font-light drop-shadow-xl min-w-[170px]  rounded-[50px];
+}
+
+.secondary-btn{
+    @apply bg-button-secondary border-solid border-button-secondary   border-[2px] border-grey drop-shadow-xl text-font-dark  min-w-[170px]  
+    rounded-[50px] hover:bg-button-primary hover:text-font-light active:bg-button-primary  active:text-font-light;
+}
+
+.success-btn{
+    @apply bg-button-success text-font-light drop-shadow-xl min-w-[170px]  rounded-[50px];
+}

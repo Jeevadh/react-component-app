@@ -1,0 +1,32 @@
+.side-bar{
+    @apply w-0 text-center;
+    min-height: calc(100vh - 96px);
+    background: transparent linear-gradient(180deg, #51BDDDD9 0%, #94CC4CE6 100%) 0% 0% no-repeat padding-box; 
+ }
+
+ .side-bar-width{
+    @apply w-[340px] p-8 z-30  xsm:w-full lg:hidden;
+ }
+
+ .side-bar .sidebar-btn:nth-child(1) {
+    @apply pt-10;
+ }
+ .sidebar-btn button{
+    @apply mb-4  min-w-[250px] h-16 border-solid border-[1px] border-secondary font-normal;
+ }
+
+.side-bar div:nth-child(1){
+    @apply border-background-primary;
+}
+
+.main-content{
+   @apply w-full flex justify-center lg:absolute;
+}
+
+.showMenu {
+   @apply block;
+}
+
+.hideMenu {
+  @apply lg:hidden block; 
+}

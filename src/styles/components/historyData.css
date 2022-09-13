@@ -1,0 +1,42 @@
+.waiting-time-blk {
+    @apply max-w-[500px] w-full rounded-3xl border-[2px] border-solid border-cyan
+}
+
+.waiting-time-content {
+    @apply px-10 py-6
+}
+
+.waiting-time-content h3{
+    @apply flex justify-center;
+}
+
+.waiting-time-content p {
+    @apply pt-4 text-font-dark font-mons
+}
+
+.waiting-time-content h3 {
+    @apply text-font-dark font-semibold
+}
+
+.upload-history-blk {
+    @apply p-4;
+}
+
+.upload-history-blk .h1-text {
+    @apply flex justify-center py-16 text-xl;
+}
+
+.upload-history-blk .h1-text span{
+    @apply ml-2;
+    margin-top:-11px;
+}
+
+
+.upload-history-blk .h1-text img{
+    height: 35px;
+    width: 35px;
+}
+
+.success-model-btn {
+    @apply flex justify-center pb-7;
+}

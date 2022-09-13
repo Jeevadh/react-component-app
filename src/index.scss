@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('./styles/main.scss');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-section{
+  @apply p-0
+}
+
+.parent-section{
+  @apply px-5
+}
+
+.main-section h1{
+ @apply p-4 pl-0 bg-blend-darken font-bold flex
+}
+
+.main-section .header{
+  @apply bg-secondary h-40
+}
+
+.fm-block {
+  @apply max-w-[385px] mx-auto;
+}
+
+.fm-block .h1-text {
+@apply pb-6 text-xl
+}
+
+
+.button-section, .input-section,.toggle-section{
+  @apply border-b-grey border-[2px] border-t-0 border-r-0 border-l-0 pb-4
+}

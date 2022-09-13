@@ -1,0 +1,57 @@
+.input-group {
+  @apply relative;
+}
+
+.input-group label,
+.dropdown-label {
+  @apply text-base block mb-2 font-bold text-left tracking-wide text-font-dark mr-3;
+}
+
+.input-group p {
+  @apply text-base block mb-3;
+}
+
+.input-group .text-field:disabled::placeholder {
+  @apply text-placeholder;
+}
+
+
+.input-group .text-field {
+  @apply relative border py-2 px-4 border-input relative bg-transparent text-sm tracking-wide rounded text-font-dark w-full mb-4;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.input-group .text-field:focus {
+  @apply outline-none border border-input;
+}
+
+.input-group .text-field::placeholder {
+  @apply font-normal text-placeholder;
+}
+
+.form-error-msg {
+  @apply mt-2 text-left text-sm text-error;
+}
+
+.input-group .text-field.input-error {
+  @apply border border-error;
+}
+
+.input-search,
+.input-password {
+  @apply flex absolute items-center h-full z-10;
+  width: 40px;
+}
+
+.input-password {
+  @apply right-0  bottom-[6px] cursor-pointer;
+}
+
+.input-password svg {
+  fill: #00408a;
+}
+
+.input-group .flex{
+  @apply w-[100px] justify-items-center
+}
